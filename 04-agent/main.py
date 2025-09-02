@@ -29,4 +29,4 @@ response = client.chat.completions.create(
     response_format={"type": "json_object"},
 )
 
-print("Response:", response.choices[0].message.content)
+print("Response:", response.choices[0].message.content )
